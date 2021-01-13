@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    height: 50px;
+    background-color: rgba(50, 49, 48, 0.6);
+    align-items: center;
+    font-weight: 400px;
+    font-size: 14px;
+    justify-content:space-between;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__leftTitle {
+    margin-left: 10px;
+}
+
+.header__leftIcon{
+    color: white;
+}
+
+.header__rightIcon{
+    margin-right: 20px;
+    color: white;
+}
+
+.header__rightAvatar{
+    margin-right: 10px;
+    background-color: #00a3efc7 !important;
+}

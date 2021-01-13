@@ -1,0 +1,122 @@
+.leftpane{
+    /* flex: 1; */
+    min-width: 350px;
+    z-index: 2;
+    max-width: 375px;
+    border-right: 2px solid black;
+    height: 100%;
+}
+
+.leftpane__header{
+    display: flex;
+    flex:1;
+    padding: 0 16px 0 16px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    min-height: 64px;
+    margin: 0 auto;
+    max-width: 560px;
+    border-bottom: 2px solid black;
+}
+.leftpane__headerIconButton{
+    color: white;
+}
+
+.leftpane__headersearch{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    background-color: #323130;
+    height: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    width: 70%;
+}
+
+.leftpane__headersearch > input{
+    flex:1;
+    background-color:inherit;
+    padding: 5px 10px;
+    width: 70%;
+    font-size: medium;
+    font-size: auto;
+    border: none;
+    color: white;
+}
+
+.leftpane__headersearch > ::placeholder {
+    color: white;
+    font-weight: lighter;
+}
+.leftpane__headersearch > input:focus{
+    outline-width: 0;
+}
+
+.leftpane__content{
+    color: white;
+    padding: 0 16px 0 16px;
+    margin: 16px 0 16px 0;
+    cursor: pointer;
+}
+
+.leftpane__contentData{
+    background-color: #494949;
+    padding: 0 0 16px 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    min-height: 40px;
+}
+
+.leftpane__contentDataColor {
+    background-color: #e6b904;
+    display: table;
+    padding-bottom: 5px;
+    min-width: auto;
+    min-height: auto;
+  }
+
+  .leftpane__contentDataColorWide {
+    background-color: #e6b904;
+    display: table;
+    padding-bottom: 10px;
+    min-width: auto;
+    min-height: auto;
+  }
+
+  .leftpane__contentDataText {
+    /* margin-top: 5px;
+    margin-left: 16px; */
+    margin: 5px 5px 5px 5px;
+    flex: 1;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+
+  .leftpane__contentDataDate {
+    margin-left: auto;
+    color: #e6b904;
+    height: 16px;
+    margin-right: 5px;
+  }
+
+  .hover{
+      display: none;
+  }
+
+  .leftpane__contentDataDate:hover .hover {
+      display: flex;
+      color: white;
+  }
+  
+  .leftpane__contentDataDate:hover .nohover {
+    display: none;
+}
+
+.hover .hover__button{
+    padding: 0 0 0 0;
+    color: white;
+}

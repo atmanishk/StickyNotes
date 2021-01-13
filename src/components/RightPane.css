@@ -1,0 +1,86 @@
+.rightpane {
+    flex: 1;
+    display: flex;
+    padding: 50px;
+    height: 350px;
+}
+
+.rightpane__card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: gray;
+    width: auto;
+    margin-right: 20px;
+    max-width: auto;
+}
+
+.rightpane__cardColor {
+    background-color: #e6b904;
+    display: table;
+    padding-bottom: 5px;
+    min-width: auto;
+    min-height: auto;
+}
+
+.rightpane__cardIcon {
+    margin-left: auto;
+    padding: 5px 5px;
+    color: white;
+}
+
+.rightpane__cardIcon, .rightpane__cardIconButton {
+    /* margin-left: auto; */
+    padding: 0 0 0 0;
+    color: white !important;
+ 
+}
+
+.rightpane__cardTextField { 
+  flex: 1;
+  height: 100%;
+  background-color: inherit;
+  text-align: left;
+  flex-direction: top;
+  color: white;
+  font-size: 16px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  margin: 16px;
+  border: none;
+  outline: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.rightpane__cardDate {
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: yellow;
+}
+
+.rightpane__cardButton {
+    padding: 5px;
+    margin-left: auto;
+}
+
+.rightpanecardNoSelect {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100;
+    font-style: italic;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .rightpanecardNoSelectImage {
+    height: 200px;
+    width: 200px;
+  }
