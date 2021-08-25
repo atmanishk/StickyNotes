@@ -16,7 +16,7 @@ function Header() {
                         className="header__leftIcon" />
                 </IconButton>
 
-                <h3 className="header__leftTitle">Sticky Notes</h3>
+                <h3 className="header__leftTitle">Sticky Notes Web App</h3>
             </div>
             <div className="header__right">
                 <SettingsIcon className="header__rightIcon" />
